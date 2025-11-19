@@ -85,4 +85,4 @@ Building systems where accountability is mechanically provable, not organization
 
 ---
 
-**© 2025 FERZ LLC** | Open standards for verifiable AI governance | Washington, D.C.
+**© 2025 FERZ LLC** | Open standards for verifiable AI governance | McLean, VA
