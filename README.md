@@ -74,7 +74,7 @@ Deep understanding of regulatory environments, compliance requirements, and ente
 - 🌐 **Website:** [ferz.ai](https://ferz.ai)
 - 📧 **Email:** contact@ferzconsulting.com
 - 💼 **LinkedIn:** [linkedin.com/in/edmeyman](https://www.linkedin.com/in/edmeyman/)
-- 📚 **SSRN:** [Author Page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5688982)
+- 📚 **SSRN Author Page:** [papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7471418](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7471418)
 - 🔬 **ResearchGate:** [Profile](https://www.researchgate.net/profile/Edward-Meyman)
 
 ## 💡 Philosophy
