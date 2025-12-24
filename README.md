@@ -1,88 +1,65 @@
 # Edward Meyman
 
-**Founder & CEO, FERZ LLC** | Building verifiable AI governance infrastructure for regulated industries
+**Founder & CEO, FERZ LLC** — building verifiable AI governance infrastructure for regulated industries (**AI compliance, auditability, policy enforcement**).
 
-🏛️ 20+ years federal IT leadership  
-📍 Washington, D.C.  
-🔬 ORCID: [0009-0008-8012-6100](https://orcid.org/0009-0008-8012-6100)
+20+ years in federal systems architecture • Washington, D.C. • ORCID: [0009-0008-8012-6100](https://orcid.org/0009-0008-8012-6100)
 
 ---
 
-## 🚀 Current Focus
+## What I'm Building
 
-Building open-source standards for **deterministic AI governance** in healthcare, finance, and defense. Creating vendor-neutral infrastructure that enables organizations to prove—not just claim—AI accountability through mechanical verification.
+Open, vendor-neutral standards for **AI governance that can be independently verified**—not documented and trusted.
 
-**Core Innovation:** Shifting AI governance from aspirational principles to mathematically verifiable proof systems, similar to how TCP/IP became foundational internet infrastructure.
+**Core thesis:** Shift governance from policy statements and process documentation to **mechanically checkable proof objects** with **replayable verification**. If you can't replay the decision, you can't audit it. If you can't audit it, you can't govern it.
 
-## 🔬 Research & Publications
-
-### Academic Papers
-
-**[Verifiable AI Governance: The Four Tests Standard (4TS) and Proof-Carrying Decisions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5688982)**  
-*SSRN, October 2025*
-
-Introduces formal specification for mechanically verifiable AI governance. Establishes four necessary and sufficient conditions (Stop, Ownership, Replay, Escalation) and operationalizes them through Proof-Carrying Decision (PCD) objects.
-
-- 📄 [Read on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5688982)
-- 🔬 [Read on ResearchGate](https://www.researchgate.net/publication/397176413_Verifiable_AI_Governance_The_Four_Tests_Standard_4TS_and_Proof-Carrying_Decisions)
-
-### Patents & IP Portfolio
-
-**Patent Holder:** Multiple innovations in deterministic AI governance:
-- **LASO(f)** - Linguistic governance framework
-- **DAGS-CVCA** - Constitutional verification for AI systems
-- **DELIA/DELIA-AG** - Decision escalation and lineage infrastructure
-- **Constitutional Blockchain** - Immutable audit trails for governance
-- **STRATA-G** - Structured governance architectures
-
-## 🛠️ Key Open-Source Projects
-
-### [Four Tests Standard (4TS)](https://github.com/edmeyman/4ts-standard)
-
-Vendor-neutral technical specification for verifiable AI governance. Enables organizations to prove compliance through:
-- **Proof-Carrying Decisions (PCDs):** Cryptographically-signed governance artifacts
-- **Deterministic Verification:** Mathematical acceptance criteria
-- **Dual Replay Modes:** State-Replay (byte-exact) and Protocol-Replay (gate-based)
-- **Fail-Closed Design:** Actions blocked by default unless provably approved
-
-**License:** CC BY-NC-ND 4.0 (specification) + MIT (schemas/code)
-
-## 💼 Professional Background
-
-### FERZ LLC | Founder & CEO
-*Building category-defining infrastructure for deterministic AI governance*
-
-**Mission:** Enable mechanical verification of AI accountability claims in regulated industries where governance failures have material consequences (healthcare decisions, financial approvals, safety-critical systems).
-
-**Approach:** Open standards with patent-protected implementation advantages—similar to how standards bodies operate—driving adoption while maintaining competitive moats through expertise.
-
-### Federal IT Leadership
-*20+ years experience in government technology programs*
-
-Deep understanding of regulatory environments, compliance requirements, and enterprise deployment constraints that inform FERZ's governance architecture.
-
-## 🎯 Strategic Vision
-
-**The Problem:** Current AI governance frameworks rely on organizational self-assessment and documentation theater. They ask "Does governance exist?" rather than "Can governance claims be proven under adversarial inspection?"
-
-**The Solution:** Deterministic verification infrastructure that enables independent auditors to mechanically validate governance claims, transforming AI oversight from narrative to proof.
-
-**The Opportunity:** Establishing governance as core infrastructure layer—the missing piece between frontier AI capabilities and enterprise deployment in regulated environments.
-
-## 📫 Connect
-
-- 🌐 **Website:** [ferz.ai](https://ferz.ai)
-- 📧 **Email:** contact@ferzconsulting.com
-- 💼 **LinkedIn:** [linkedin.com/in/edmeyman](https://www.linkedin.com/in/edmeyman/)
-- 📚 **SSRN Author Page:** [papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7471418](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7471418)
-- 🔬 **ResearchGate:** [Profile](https://www.researchgate.net/profile/Edward-Meyman)
-
-## 💡 Philosophy
-
-> "Governance without verification is theater. Verification without determinism is sampling. We need infrastructure that can survive adversarial inspection—not just friendly audits."
-
-Building systems where accountability is mechanically provable, not organizationally claimed. Creating the TCP/IP layer for AI governance.
+This work centers on **Proof-Carrying Decisions (PCDs)**—cryptographically signed artifacts that carry their own verification evidence, enabling **fail-closed governance** where actions are blocked unless provably authorized.
 
 ---
 
-**© 2025 FERZ LLC** | Open standards for verifiable AI governance | McLean, VA
+## Open Standards
+
+### [4TS Standard](https://github.com/edmeyman/4ts-standard)
+
+The **Four Tests Standard** is a vendor-neutral specification for deterministic AI governance (PCD-oriented): **Stop, Ownership, Replay, Escalation**.
+
+---
+
+## Publications & Prior Art
+
+- 📚 **[SSRN Author Page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7471418)**
+- 🔬 **[ResearchGate](https://www.researchgate.net/profile/Edward-Meyman)**
+- 🧾 **[Zenodo](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Meyman%2C%20Edward%22&l=list&p=1&s=10&sort=bestmatch)**
+- 🛡️ **[IP.com](https://ip.com)** — defensive publications establishing AI governance prior art (search: Meyman)
+
+---
+
+## FERZ Intellectual Property Portfolio
+
+Patent-pending governance infrastructure with claims across multiple mathematical approaches to deterministic verification. Representative systems include:
+
+- **LASO(f)** — Linguistic policy enforcement kernel  
+- **DELIA** — Decision lineage and escalation infrastructure  
+- **DAGS-CVCA** — Constitutional verification for AI systems  
+- **STRATA-G** — Structured governance architecture  
+
+Complemented by defensive publications establishing foundational prior art in AI governance. These and other systems operationalize 4TS principles for regulated industries including healthcare, financial services, and defense.
+
+---
+
+## Looking For
+
+- **Standards adoption** — Organizations implementing verifiable governance frameworks  
+- **Pilot customers** — Regulated enterprises ready to move beyond compliance theater  
+- **Collaborators** — Researchers/engineers working on deterministic governance, formal methods, or regulatory technology
+
+---
+
+## Connect
+
+- 🌐 [ferz.ai](https://ferz.ai)
+- 📧 [contact@ferzconsulting.com](mailto:contact@ferzconsulting.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/edmeyman/)
+
+---
+
+> Governance without verification is theater. Verification without determinism is sampling.
