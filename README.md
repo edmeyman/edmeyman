@@ -35,7 +35,7 @@ The **Four Tests Standard (4TS)** is a vendor-neutral specification for determin
 
 ---
 
-## [AI Governance Executive Guide Series](https://github.com/edmeyman/ai-governance-executive-guides)
+## [AI Governance Executive Guide Series](https://github.com/edmeyman/ai-governance-guides)
 
 A decision-grade guide series for executives, regulators, and system owners responsible for deploying AI in regulated environments.
 
