@@ -1,6 +1,6 @@
 # Edward Meyman
 
-**Founder & CEO, FERZ, Inc.** — building verifiable AI governance infrastructure for regulated industries  
+**Founder & CEO, FERZ Inc.** — building verifiable AI governance infrastructure for regulated industries  
 (**AI compliance, auditability, policy enforcement**)
 
 20+ years in federal systems architecture • Washington, D.C.  
