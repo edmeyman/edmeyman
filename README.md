@@ -1,37 +1,38 @@
 # Edward Meyman
 
-**Founder & CEO, FERZ Inc.** — building verifiable AI governance infrastructure for regulated industries  
-(**AI compliance, auditability, policy enforcement**)
+**Founder & CEO, FERZ, Inc.** Building runtime authorization infrastructure, the enforcement layer of AI governance, for regulated industries.
 
-20+ years in federal systems architecture • Washington, D.C.  
 ORCID: [0009-0008-8012-6100](https://orcid.org/0009-0008-8012-6100)
 
 ---
 
 ## What I'm Building
 
-Open, vendor-neutral standards for **AI governance that can be independently verified**—not documented and trusted.
+Published, vendor-neutral work on **AI governance that can be independently verified**, not merely documented and trusted.
 
-**Core thesis:** Shift governance from policy statements and process documentation to **mechanically checkable proof objects** with **replayable verification**. If you can't replay the decision, you can't audit it. If you can't audit it, you can't govern it.
+**Core thesis:** AI governance is an enforcement problem, not a monitoring problem. Governance must shift from policy statements and process documentation to **authorization artifacts that support independent replay**. If you can't replay the decision, you can't audit it. If you can't audit it, you can't govern it.
 
 This approach treats governance as a **runtime property of the system**, not an after-the-fact reporting function.
 
-This work centers on **Proof-Carrying Decisions (PCDs)**—cryptographically signed artifacts that carry their own verification evidence, enabling **fail-closed governance** where actions are blocked unless provably authorized.
+The work centers on **tamper-evident authorization artifacts, implemented as Proof-Carrying Decisions under 5TS**: artifacts that carry verification evidence, enabling **fail-closed authorization** where effect-bearing actions do not execute without a verdict.
 
 ---
 
-## Open Standards
+## Published Standard
 
-### [4TS Standard](https://github.com/edmeyman/4ts-standard)
+### [Five Tests Standard (5TS)](https://github.com/edmeyman/4ts-standard)
 
-The **Four Tests Standard (4TS)** is a vendor-neutral specification for deterministic AI governance, oriented around Proof-Carrying Decisions:
+The **Five Tests Standard (5TS)** is a published, vendor-neutral standard defining five conformance tests for AI governance mechanisms. It supersedes the Four Tests Standard (4TS); the repository name is retained from the predecessor.
 
-- **Stop** — Can the system provably refuse an action?
-- **Ownership** — Can the authority behind a decision be proven?
-- **Replay** — Can the decision be mechanically reproduced and verified?
-- **Escalation** — Can unresolved or unauthorized actions be deterministically routed?
+* **Stop.** The system can be halted before side effects occur.
+* **Ownership.** Each consequential decision maps to a named accountable authority.
+* **Replay.** The decision can be reproduced at the boundary.
+* **Escalation.** Control transfers at defined policy boundaries.
+* **Provenance.** The inputs grounding a verdict have an established origin. Origin, not truth.
 
-4TS defines **what must be provable** for an AI system to be governable in regulated environments.
+The verdict space is ALLOW, DENY, and ABSTAIN. An ABSTAIN blocks execution pending authorized human override; escalation is the consequence of ABSTAIN, not a fourth verdict.
+
+Archived under concept DOI [10.5281/zenodo.21040295](https://doi.org/10.5281/zenodo.21040295).
 
 ---
 
@@ -41,83 +42,67 @@ A decision-grade guide series for executives, regulators, and system owners resp
 
 The series translates deterministic governance principles into **actionable authorization models**, clarifying:
 
-- What must be *provable* vs. what can be merely *documented*
-- Where traditional compliance frameworks fail
-- Why logs, audits, and attestations are insufficient as evidence
-- How to operationalize fail-closed authorization for AI systems
+* What must be *verifiable* vs. what can be merely *documented*
+* Where traditional compliance frameworks stop short of pre-execution authorization evidence
+* Why logs, audits, and attestations are insufficient as authorization evidence
+* How to operationalize fail-closed authorization for AI systems
 
-**Selected guides include:**
-
-- *From Compliance Artifacts to Proof-Carrying Decisions*
-- *Why Logs Are Not Evidence*
-- *Determinism vs. Authorization: A Governance Boundary*
-- *The Four Tests Standard (4TS) — An Executive Primer*
-
-> Written for leaders who must **authorize AI systems**, not merely oversee them.
+> Written for leaders who must **authorize AI systems**, not merely observe them.
 
 ---
 
 ## Publications & Prior Art
 
-- 📚 **SSRN Author Page**  
-  https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7471418
+* 📚 **SSRN:** https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7471418
+* 🧾 **Zenodo:** https://zenodo.org/communities/ferz/
+* 🔬 **ResearchGate:** https://www.researchgate.net/profile/Edward-Meyman
+* 🛡️ **IP.com:** defensive publications establishing AI governance prior art; search: *Meyman*
 
-- 🔬 **ResearchGate**  
-  https://www.researchgate.net/profile/Edward-Meyman
-
-- 🧾 **Zenodo**  
-  https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Meyman%2C%20Edward%22
-
-- 🛡️ **IP.com** — defensive publications establishing AI governance prior art  
-  (search: *Meyman*)
-
-These publications establish architectural and conceptual prior art for deterministic AI governance, proof-based authorization, and replayable verification.
+These publications establish architectural and conceptual prior art for deterministic AI governance, authorization artifacts, and independently reconstructable verification.
 
 ---
 
 ## FERZ Intellectual Property Portfolio
 
-Patent-pending governance infrastructure with claims spanning multiple mathematical approaches to deterministic verification and authorization.
+Patent-pending governance infrastructure addressing distinct failure modes in AI authorization, escalation, and accountability under regulatory constraints.
 
-Each system addresses a **distinct failure mode** in AI accountability, escalation, or authorization under regulatory constraints.
+Patent filings and published prior-art materials include work on:
 
-Representative systems include:
+* **LASO(f):** deterministic linguistic policy enforcement
+* **DELIA:** deterministic governance of AI-generated multimodal outputs and serialized action descriptions
+* **CausaCore:** causal governance and decision lineage infrastructure
 
-- **LASO(f)** — Linguistic policy enforcement kernel  
-- **DELIA** — Decision lineage, authorization, and escalation infrastructure  
-- **DAGS-CVCA** — Constitutional verification for AI systems  
-- **STRATA-G** — Structured governance architecture for regulated AI
-
-These systems operationalize 4TS principles across healthcare, financial services, government, and defense environments, complemented by defensive publications establishing foundational prior art.
+The filed portfolio is complemented by defensive publications establishing foundational prior art. Mechanism details are not published outside the filings themselves.
 
 ---
 
-## How to Read This Repository
+## How to Read This Profile
 
-- **Standards** define *what must be provable*
-- **Systems** show *how proof is generated and enforced*
-- **Publications** explain *why existing approaches fail*
+* **The standard** defines *what must be verifiable*
+* **The systems** enforce *authorization at runtime*
+* **The publications** explain *why observation-based approaches fail*
 
-This repository is intended to be read as **governance architecture**, not product documentation.
+Governance architecture, not product documentation.
 
 ---
 
 ## Looking For
 
-- **Standards adoption** — Organizations implementing verifiable governance frameworks
-- **Pilot customers** — Regulated enterprises ready to move beyond compliance theater
-- **Collaborators** — Researchers and engineers working on deterministic governance, formal methods, or regulatory technology
+* **Standards adoption:** organizations implementing verifiable governance frameworks
+* **Pilot customers:** regulated enterprises ready to move beyond compliance theater
+* **Collaborators:** researchers and engineers working on deterministic governance, formal methods, or regulatory technology
 
 ---
 
 ## Connect
 
-- 🌐 Website: https://ferz.ai  
-- 📧 Email: contact@ferzconsulting.com  
-- 💼 LinkedIn: https://www.linkedin.com/in/edmeyman/
+* 🌐 Website: https://ferz.ai
+* 📧 Research correspondence: [edward@ferz.ai](mailto:edward@ferz.ai)
+* 📧 FERZ and pilot inquiries: [info@ferz.ai](mailto:info@ferz.ai)
+* 💼 LinkedIn: https://www.linkedin.com/in/edmeyman/
 
 ---
 
-> Governance without verification is theater.  
-> Verification without determinism is sampling.  
+> Governance without verification is theater.
+> Verification without determinism is sampling.
 > — Edward Meyman
